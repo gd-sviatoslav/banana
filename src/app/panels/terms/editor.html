@@ -7,6 +7,10 @@
     <label class="small">Length <tip>Specify a maximum number of terms to display (Top N).</tip></label>
     <input class="input-small" type="number" ng-model="panel.size" ng-change="set_refresh(true)">
   </div>
+    <div class="span2">
+        <label class="small">Panel height <tip>Height of the scrollable area in pixels.</tip></label>
+        <input class="input-small" type="number" ng-model="panel.visibleHeight" ng-change="set_refresh(true)">
+    </div>
   <div class="span3">
     <label class="small">Order</label>
     <!-- <select class="input-medium" ng-model="panel.order" ng-options="f for f in ['count','term','reverse_count','reverse_term']" ng-change="set_refresh(true)"></select></span> -->

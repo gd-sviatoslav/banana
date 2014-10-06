@@ -28,7 +28,8 @@ function (angular, app, _, $, kbn) {
   app.useModule(module);
 
   module.controller('terms_multiselect', function($scope, querySrv, dashboard, filterSrv) {
-    $scope.panelMeta = {
+      $scope.panel.visibleHeight = 300;
+      $scope.panelMeta = {
       modals : [
         {
           description: "Inspect",

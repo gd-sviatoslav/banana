@@ -3,3 +3,7 @@ node_modules
 dist
 /build
 /web
+.idea
+banana-install.sh
+banana.iml
+build.number
